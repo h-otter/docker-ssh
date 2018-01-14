@@ -12,4 +12,4 @@ RUN echo "export VISIBLE=now" >> /etc/profile
 WORKDIR /
 COPY ssh.sh /
 EXPOSE 22
-CMD ["ssh.sh"]
+CMD ["/ssh.sh"]
