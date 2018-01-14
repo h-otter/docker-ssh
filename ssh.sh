@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
-echo 'root:$PASSWORD' | chpasswd
+echo "root:$PASSWORD" | chpasswd
 /usr/sbin/sshd -D
